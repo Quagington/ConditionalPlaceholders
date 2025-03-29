@@ -1,0 +1,27 @@
+name: ConditionalPlaceholders
+version: ${full.version}
+api-version: 1.21
+
+main: io.quagmire.conditionalplaceholders.ConditionalPlaceholdersPlugin
+
+author: Quagmire
+prefix: ConditionalPlaceholders
+depend: [Core, PlaceholderAPI]
+description: ConditionalPlaceholders is a plugin that allows you to use conditional statements in placeholders.
+website: https://quagmire.io
+folia-supported: true
+
+commands:
+  conditionalplaceholders:
+    description: ConditionalPlaceholders Main Command
+    permission: conditionalplaceholders.player
+    aliases:
+      - cpl
+
+permissions:
+  conditionalplaceholders.command:
+    description: Permission to use the plugin as a player
+    default: op
+  conditionalplaceholders.reload:
+    description: Permission to use reload plugin
+    default: op
