@@ -19,12 +19,12 @@ ConditionalPlaceholders is a powerful Minecraft plugin that extends PlaceholderA
 
 - Java 21 or higher
 - Paper/Spigot 1.20.4+
-- [PlaceholderAPI](https://github.com/PlaceholderAPI/PlaceholderAPI)
-- [Quagmire Core](https://quagmire.io/core)
+- PlaceholderAPI
+- Quagmire Core
 
 ## Installation
 
-1. Download the latest version of ConditionalPlaceholders from [our website](https://quagmire.io)
+1. Download the latest version of ConditionalPlaceholders
 2. Place the JAR file in your server's `plugins` folder
 3. Restart your server
 4. Configure the plugin using the `config.yml` file
@@ -127,11 +127,7 @@ ConditionalRuleManager ruleManager = plugin.getRuleManager();
 
 ## Support
 
-If you encounter any issues or have questions, feel free to:
-
-- Join our Discord: [discord.quagmire.io](https://discord.quagmire.io)
-- Visit our website: [quagmire.io](https://quagmire.io)
-- Create an issue on our GitHub repository
+If you encounter any issues or have questions, feel free to create an issue on our GitHub repository.
 
 ## License
 
@@ -149,5 +145,4 @@ We welcome contributions to the project! If you'd like to contribute:
 
 ## Credits
 
-- **Author**: Quagmire (me@quagmire.dev)
-- **Website**: [quagmire.io](https://quagmire.io) 
+- **Author**: Quagmire (me@quagmire.dev) 
