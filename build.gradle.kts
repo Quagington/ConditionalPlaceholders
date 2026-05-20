@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "io.quagmire"
-version = "1.0.1"
+version = "1.0.2"
 
 java {
   toolchain.languageVersion.set(JavaLanguageVersion.of(25))
@@ -33,11 +33,11 @@ repositories {
 }
 
 dependencies {
-  compileOnly("org.projectlombok:lombok:1.18.30")
+  compileOnly("org.projectlombok:lombok:1.18.44")
   compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
   compileOnly("io.quagmire:Core:2.1.13")
   compileOnly("me.clip:placeholderapi:2.11.6")
-  annotationProcessor("org.projectlombok:lombok:1.18.30")
+  annotationProcessor("org.projectlombok:lombok:1.18.44")
 }
 
 val copyJar by tasks.registering(Copy::class) {
