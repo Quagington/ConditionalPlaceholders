@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "io.quagmire"
-version = "1.0.4"
+version = "1.0.5"
 
 java {
   toolchain.languageVersion.set(JavaLanguageVersion.of(25))
@@ -16,7 +16,7 @@ repositories {
   mavenCentral()
   maven {
     name = "papermc"
-    url = uri("https://papermc.io/repo/repository/maven-public")
+    url = uri("https://repo.papermc.io/repository/maven-public")
   }
   maven {
     name = "placeholderapi"
